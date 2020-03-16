@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>JASON AND AJAX</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">Features</a>
+          <a class="nav-item nav-link" href="#">Pricing</a>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="main">
+    <div class="container">
+      <label for="rollno"></label>
+        <!-- <input type="number" name="rollno" value="0" max="62" id="rollno"> -->
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text noselect" id="inputGroup-sizing-default">Roll No</span>
+          </div>
+          <input type="number" min="1" max="62" id="rollno" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button type="button" name="button" class="btn btn-dark" id="bton">Submit</button>
+        <div id="content">
+        </div>
+    </div>
+  </section>
+  <footer>
+    Copyright &copy; 2020 Anas Vakyathodi
+  </footer>
+  <script src="./js/main.js" charset="utf-8"></script>
+</body>
+
+</html>
