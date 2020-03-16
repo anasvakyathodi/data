@@ -27,7 +27,7 @@ function renderHTML(data) {
         ' </div></div><div class="row"><div class="col-lg-6">E-MAIL</div><div class="col-lg-6">' + data[i].E_MAIL +
         ' </div></div><div class="row"><div class="col-lg-6">BLOOD GROUP</div><div class="col-lg-6">' + data[i].BLOOD_GROUP +
         ' </div></div><div class="row"><div class="col-lg-6">PERMANENT ADDRESS</div><div class="col-lg-6">' + data[i].PERMANENT_ADDRESS +
-        ' </div></div><div class="row"><div class="col-lg-6">DATE OF BIRTH</div><div class="col-lg-6">' + data[i].DOB +
+        '</div></div><div class="row"><div class="col-lg-6">DATE OF BIRTH</div><div class="col-lg-6">' + data[i].DOB +
         ' </div></div><div class="row"><div class="col-lg-6">FATHER&rsquo;S NAME</div><div class="col-lg-6">' + data[i].FATHER_NAME +
         '</div></div></div>';
       content.innerHTML = str;
