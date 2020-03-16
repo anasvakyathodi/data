@@ -26,12 +26,7 @@ div.input-group{
             user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Opera and Firefox */
 }
-footer{
-  display: static;
-  background-color: #343a40;;
-  color: white;
-  padding: 20px;
-}
+
 #main,#search,#about{
   min-height: 100vh;
 }
@@ -57,12 +52,13 @@ form.form-inline{
   background-color: #E1E8ED;
   /* #F7F7F7; */
 }
-#c{
-  color: red;
+.navbar-fixed-top.scrolled {
+  background-color: rgba(255, 0, 0, 0.5)!important;
+  transition: background-color 200ms linear;
 }
-#s{
-  color:green;
+div a.nav-item,nav a b{
+  color:white; !important;
 }
-#e{
-  color: blue;
+footer{
+  margin-top: auto;
 }
